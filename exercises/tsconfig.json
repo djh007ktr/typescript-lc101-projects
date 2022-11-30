@@ -1,5 +1,5 @@
 {
-    "compilerOptions": {
+  "compilerOptions": {
       "target": "es6",
       "lib": ["esnext", "dom"],
       "module": "commonjs",
@@ -12,6 +12,5 @@
       "types": ["node"],
       "allowSyntheticDefaultImports": true,
       "experimentalDecorators": true
-    }
   }
-  
+}
