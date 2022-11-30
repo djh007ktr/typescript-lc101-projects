@@ -4,15 +4,22 @@
 
 // Part 1: Declare (5) Variables With Type
 
+let spacecraftName: string = 'Determination';
+let speedMph: number = 17500;
+const kilometersToMars: number = 225000000;
+const kilometersToTheMoon: number = 384400;
+const milesPerKilometer: number = 0.621;
 
+let milesToMars: number = kilometersToMars * milesPerKilometer;
+let hoursToMars: number = milesToMars / speedMph;
+let daysToMars: number = hoursToMars / 24;
 
 // Part 2: Print Days to Mars
 
 
-
 // Code an output statement here (use a template literal):
 
-
+console.log(`${spacecraftName} has ${daysToMars} more days until arriving on Mars.`);
 
 // Part 3: Create a Function ("getDaysToLocation")
 
